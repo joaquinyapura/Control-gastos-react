@@ -15,7 +15,7 @@ export const TransactionForm = () => {
     addTransaction({
       id:window.crypto.randomUUID(),
       Descripcion,
-      Importe
+      Importe: +Importe
     })
     
 
