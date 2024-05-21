@@ -9,7 +9,7 @@ export const Balance = () => {
 
   const montos = transactions.map(transactions => transactions.Importe)
 
- const total = montos.reduce((acc,item) => acc+item,0)
+  const total = montos.reduce((acc,item) => acc+item,0)
 
 
   return (

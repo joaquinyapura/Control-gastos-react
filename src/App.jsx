@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { Context } from "./Context/GlobalContext"
 
 import {Balance,Header,TransactionForm, TransactionList} from './Components'
+import { IncomeExpenses } from "./Components/IncomeExpenses"
 
 
 
@@ -14,6 +15,8 @@ function App() {
     <>
     <Header />
     <Balance />
+
+    <IncomeExpenses />
     <TransactionForm />
     <TransactionList />
 
