@@ -5,7 +5,7 @@ export const Balance = () => {
 
   const data = UseGlobalcontext()
   return (
-    <div>Balance {JSON.stringify(data)}
+    <div>Balance
 
     </div>
   )

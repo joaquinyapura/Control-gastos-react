@@ -13,7 +13,7 @@ export const TransactionForm = () => {
   const onFormSubmit = (e)=>{
     e.preventDefault()
     addTransaction({
-      id:1,
+      id:window.crypto.randomUUID(),
       Descripcion,
       Importe
     })

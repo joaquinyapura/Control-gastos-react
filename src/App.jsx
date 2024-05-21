@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { Context } from "./Context/GlobalContext"
 
-import {Balance,Header,TransactionForm} from './Components'
+import {Balance,Header,TransactionForm, TransactionList} from './Components'
 
 
 
@@ -15,6 +15,7 @@ function App() {
     <Header />
     <Balance />
     <TransactionForm />
+    <TransactionList />
 
       
     </>

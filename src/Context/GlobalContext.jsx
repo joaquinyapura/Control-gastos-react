@@ -11,6 +11,7 @@ export const UseGlobalcontext = ()=>{
 
 }
 
+
 const InitialState = {
     transactions:[]
 }
@@ -26,12 +27,19 @@ export const GlobalContext = ({children}) => {
       payload:transaction
      }) 
     }
+    const deleteTransaction = (id)=>{
+     dispatch({
+      type:"DELETE_TRANSACTION",
+      payload:id
+     }) 
+    }
 
 
   return (
     <Context.Provider value={{
       transactions: state.transactions,
-      addTransaction
+      addTransaction,
+      deleteTransaction
 
     }} >
         {children}
