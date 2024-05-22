@@ -20,7 +20,7 @@ export const IncomeExpenses = () => {
                     
 
   return (
-    <div>
+    <div className="flex gap-6">
         <div>
             <h3>Ingregos</h3>
             <h1> {ingresos} </h1>

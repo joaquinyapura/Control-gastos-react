@@ -13,12 +13,28 @@ function App() {
 
   return (
     <>
-    <Header />
-    <Balance />
+<div className="bg-zinc-800 h-screen text-white flex justify-center items-center">
+    <div className="p-10 rounded-lg bg-slate-700 flex">
 
-    <IncomeExpenses />
-    <TransactionForm />
-    <TransactionList />
+      <div className="p-10 flex flex-col items-center ">
+
+      <Header />
+        <div className="flex text-center gap-5">
+
+      <Balance />
+
+      <IncomeExpenses />
+        </div>
+      <TransactionForm />
+      </div>
+      <div >
+
+      <TransactionList />
+      </div>
+    </div>
+  
+</div>
+
 
       
     </>
