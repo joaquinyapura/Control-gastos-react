@@ -12,6 +12,9 @@ export const Balance = () => {
   const total = montos.reduce((acc,item) => acc+item,0)
 
 
+  
+
+
   return (
     <div>
       <h3>Balance</h3>
