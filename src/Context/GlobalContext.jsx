@@ -45,6 +45,10 @@ export const GlobalContext = ({children}) => {
     }
 
 
+    console.log(state.transactions);
+
+
+
   return (
     <Context.Provider value={{
       transactions: state.transactions,
