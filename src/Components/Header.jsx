@@ -6,9 +6,8 @@ export const Header = () => {
 
   const {transactions} = UseGlobalcontext()
 
-
-  /* const montos = transactions.map(transactions => transactions.Importe)
-  const total = montos.reduce((acc,item)=>acc+=item)
+  const montos = transactions.map(transactions => transactions.Importe)
+  const total = montos.reduce((acc,item)=>acc+=item,0)
 
 
   const ingresos = montos
@@ -22,7 +21,7 @@ export const Header = () => {
                     .reduce((acc,item)=>(acc+=item),0)*-1
 
   const egresosPorcentaje = egresos/total*100
- */
+
 
   return (
 

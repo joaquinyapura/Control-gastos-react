@@ -45,8 +45,6 @@ export const GlobalContext = ({children}) => {
     }
 
 
-    console.log(state.transactions);
-
 
 
   return (
